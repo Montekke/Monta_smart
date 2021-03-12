@@ -94,6 +94,14 @@ header {
 	}
 }
 
+.visible-md,
+.visible-xs,
+.visible-sm,
+.visible-m,
+.visible-s {
+	display: none !important;
+}
+
 .descriptor {
 	font-family: 'Ubuntu';
 	font-size: 15px;
@@ -142,7 +150,7 @@ header .btn {
 .reviews {
 	background-image: url(../img/backfon.png);
 	background-repeat: no-repeat;
-	background-position: 48% 67%;
+	background-position: 48% 57%;
 	height: 920px;
 	background-color: #f0f0f0;
 }
@@ -156,9 +164,11 @@ header .btn {
 	font-weight: 500;
 	line-height: 30px;
 	margin-top: 15px;
+    font-family: 'UbuntuMedium';
 }
 .reviews h2 {
 	padding-top: 95px;
+    font-family: 'UbuntuBold';
 }
 .reviews .text-center img {
 	margin-top: 10px;
@@ -197,6 +207,9 @@ header .btn {
     height: 1000px;
     background-color: #f0f0f0;
 }
+.buttons {
+    font-family: 'UbuntuMedium';
+}
 .reviews-thn .buttons {
 	margin-top: -400px;
 }
@@ -231,17 +244,25 @@ header .btn {
     z-index: 9;
 }
 .video-reviews h2 {
-    color: #000;
     padding-top: 100px;
     margin-bottom: 95px;
 }
 .fancy_v {
     padding: 0 155px;
-    margin-bottom: 85px;
+    
+    position: relative;
+    bottom: 256px;
+}
+.fancy_v2 {
+    margin-top: -195px;
+    padding-bottom: 310px;
 }
 .videos h2 {
-    padding-top: 100px;
-    margin-bottom: 370px;
+    padding-top: 39px;
+    font-family: 'UbuntuBold';
+    position: relative;
+    z-index: 1;
+    margin-bottom: 77px;
 }
 .section-1 p {
     margin: 0;
@@ -266,7 +287,11 @@ h1 {
 .single,
 .krug,
 .ellipse,
-.merch {
+.merch,
+.single2,
+.carus_fon,
+.rew_heart,
+.equip1 {
         margin-left: auto;
         margin-right: auto;
         left: 0;
@@ -288,6 +313,10 @@ h1 {
 }
 .text_r {
     text-align: right;
+    padding-right: 30px;
+}
+.text_l {
+    padding-left: 30px;
 }
 .bubble {
     padding-top: 47px;
@@ -336,6 +365,7 @@ h1 {
 }
 .core_div {
     top: -77px;
+    line-height: 1.3;
 }
 .div1 {
     padding: 0 120px;
@@ -360,7 +390,7 @@ h1 {
     top: 50px;
 }
 .div2 {
-    padding: 0 122px;
+    padding: 0 92px;
     margin-top: 22px;
 }
 .vnutr1 {
@@ -368,7 +398,7 @@ h1 {
     margin-top: -17px;
 }
 .div3 {
-    padding: 0px 148px;
+    padding: 0px 118px;
     margin-top: 56px;
 }
 .vnutr2 {
@@ -377,7 +407,7 @@ h1 {
 }
 .div4 {
     margin-top: 37px;
-    padding: 0px 180px;
+    padding: 0px 150px;
 }
 .buttons .btn {
     display: block;
@@ -413,7 +443,7 @@ h2 {
     text-align: center;
     font-size: 41px;
     font-weight: 700;
-    
+    font-family: 'UbuntuBold';
 }
 .about_goods h2 {
     margin-bottom: 50px;
@@ -469,7 +499,7 @@ h2 {
 .how_it_work {
     background-color: #000;
     color: #fff;
-    height: 850px;
+    height: 900px;
 }
 .how_it_work .volna {
     top: -86px;
@@ -487,6 +517,8 @@ h2 {
     font-size: 22px;
     text-align: center;
     line-height: 1.5;
+    margin-top: 25px;
+    font-weight: 700;
 }
 .how_it_work p span {
     color:#F5D366;
@@ -498,6 +530,18 @@ h2 {
 }
 .buttons .vio {
     background-color: #000;
+    background-image: none;
+    border: 2px solid #DF86ED;
+    color: #DF86ED;
+}
+.buttons .vio2 {
+    background-color: #222;
+    background-image: none;
+    border: 2px solid #DF86ED;
+    color: #DF86ED;
+}
+.buttons .vio3 {
+    background-color: #1A1A18;
     background-image: none;
     border: 2px solid #DF86ED;
     color: #DF86ED;
@@ -520,4 +564,325 @@ h2 {
 }
 .preims .volna {
     top: -86px;
+    position: relative;
+}
+.preims .container {
+    position: relative;
+    bottom: 160px;
+}
+.core_div4 {
+    margin-top: 70px;
+    padding: 0px 216px;
+}
+.core_div4 p {
+    margin-top: 10px;
+}
+.b_1 {
+    padding-left: 101px;
+    margin-top: 40px;
+}
+.preims .buttons {
+    top: 30px;
+    position: relative;
+}
+.effect {
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 35px;
+}
+.effect .volna {
+    position: relative;
+    bottom: 66px;
+}
+.effect .h_back {
+    left: 385px;
+    bottom: 177px;
+    width: 100px;
+}
+.effect .container {
+    bottom: 122px;
+}
+.effect h2 {
+    position: relative;
+    z-index: 2;
+}
+.effect .merch {
+    bottom: -28px;
+    z-index: 1;
+}
+.effect .h_back {
+    z-index: 2;
+}
+.effect p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'UbuntuMedium';
+}
+.pl p {
+    margin-right: 16px;
+} 
+.pr p {
+    margin-left: 16px;
+}
+.pl .d-flex,
+.pr .d-flex {
+    margin-bottom:47px;
+}
+.core_div5 {  
+    position: relative;
+    bottom: 55px;
+    padding: 0 124px;
+    z-index: 2;
+}
+.bl_4,
+.bl_6 {
+    margin-left:-37px;
+}
+.bl_3 {
+    margin-left: 28px;
+}
+.bl_5 {
+    margin-right: 9px;
+}
+.effect .buttons {
+    position: relative;
+    bottom: 110px;
+    z-index: 2;
+}
+.reviews .prev {
+    position: absolute;
+    top: 242px;
+    left: 0px;
+    z-index: 9;
+}
+.reviews .next {
+    position: absolute;
+    top: 242px;
+    right: 0px;
+    z-index: 9;
+}
+.reviews .volna {
+    bottom: 87px;
+}
+.reviews .container {
+    bottom: 265px;
+    position: relative;
+}
+.video-reviews {
+    background-color: #000;
+    color: #fff;
+}
+.buttons .btn-yellow {
+        background-color: #000;
+        background-image: none;
+        border: 2px solid #F5D366;
+        color: #F5D366;
+}
+.video-reviews .h_back {
+    left: 433px;
+    bottom: 286px;
+    width: 100px;
+}
+.video-reviews .volna {   
+    top: -53px;
+    width: 100%;
+    
+}
+.video-reviews .container {
+    bottom: 244px;
+}
+.video-reviews h2 {
+    z-index: 2;
+    position: relative;
+    font-family: 'UbuntuBold';
+}
+.imaga3 {
+	width: 233px;
+	height: 414px;
+	border-radius: 10px;
+}
+.reviews2 {
+	display: none;
+    top: 159px;
+}
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+.video-reviews .buttons {
+    position: relative;
+    top: -260px;
+}
+.video-reviews .button-visible {
+    position: relative;
+    bottom: -81px;
+}
+.video-reviews .back_b {
+    bottom: -131px;
+}
+.videos {
+    background-color: #D1D2D4;
+    color:#222;
+}
+.videos .volna {
+    width: 100%;
+    top: -85px;
+}
+.videos h3 {
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'UbuntuBold';
+}
+.videos .video_cont {
+    margin-bottom: 91px;
+}
+.videos .buttons {
+    padding-bottom: 150px;
+}
+.blo_1 {
+    margin-right: 45px;
+}
+.blo_2 {
+    margin-left: 45px;
+}
+.about {
+    background-color: #1A1A18;
+    color: #fff;
+}
+.about p,
+.about h4,
+.about h3 {
+    color:#C7C7C7;
+}
+.about h3 {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 70px;
+}
+.about h4 {
+    font-size: 20px;
+}
+.about p {
+    font-size: 14px;
+}
+.about .volna {
+    top: -85px;
+    width: 100%;
+}
+.about h2 {
+    position: relative;
+    z-index: 1;
+    padding-top: 45px;
+    margin-bottom: 90px;
+}
+.kevin {
+    position: relative;
+    bottom: 180px;
+}
+.rospis {
+    margin-left: 90px;
+}
+.about .buttons {
+    bottom: 185px;
+}
+.equip .volna {
+    top: -71px;
+    width: 100%;
+}
+.equip {
+    color: #222;
+    padding-bottom: 100px;
+}
+.equip h2 {
+    position: relative;
+    padding-top: 38px;
+}
+.equip h5 {
+    font-size: 18px;
+    font-family: 'UbuntuBold';
+    font-weight: 700;
+}
+.equip p{
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 1.3;
+}
+.divi {
+    padding-right: 23px;
+    padding-bottom: 17px;
+}
+.nodivi {
+    display: flex;
+}
+.divi2 {
+    margin-right: 3px;
+}
+.divi3 {
+    margin-left: 10px;
+}
+.idiv {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.divi_i {
+    margin-top: 25px;
+}
+.equip1 {
+    top: 183px;
+}
+.core_div6 {
+    padding: 0 72px;
+}
+.equip .buttons {
+    bottom: 60px;
+}
+.instruction {
+    background-color: #1A1A18;
+    color: #fff;
+    text-align: center;
+}
+.instruction h3 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'UbuntuMedium';
+    position: relative;
+    margin-bottom: 20px;
+}
+.instruction h6, .instruction h4 {
+    font-size: 18px;
+    font-family: 'UbuntuBold';
+    font-weight: 700;
+}
+.instruction p {
+    font-size: 16px;
+}
+.instruction h4 {
+    text-align-last: left;
+}
+.instruction .volna {
+    top: -66px;
+    width: 100%;
+}
+.instruction h2 {
+    position: relative;
+    padding-top: 70px;
+    margin-bottom: 44px;
+}
+.yellow {
+    color: #F2A66F;
+}
+.blue {
+    color: #88DFF2;
+}
+.pink {
+    color: #FFBADB;
+}
+.instruction h4 span {
+    color: #B191F4;
 }
