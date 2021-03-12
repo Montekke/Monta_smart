@@ -45,9 +45,32 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'UbuntuBold';
+	src: url('../fonts/Ubuntu-Bold.ttf');
+	src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../fonts/Ubuntu-Regular.ttf');
+	src: url('../fonts/Ubuntu-Regular.ttf') fourl('../fonts/Ubuntu-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UbuntuMedium';
+	src: url('../fonts/Ubuntu-Medium.ttf');
+	src: url('../fonts/Ubuntu-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: medium;
+}
 
 body {
-	font-family: 'Montserrat';
+	font-family: 'Ubuntu';
 }
 
 * {
@@ -72,8 +95,8 @@ header {
 }
 
 .descriptor {
-	font-family: 'MontserratSemi';
-	font-size: 13px;
+	font-family: 'Ubuntu';
+	font-size: 15px;
 	color: #fff;
 }
 
@@ -83,16 +106,18 @@ header {
 
 .desc {
 	color: #ffffff;
-	font-size: 19px;
+	font-size: 24px;
 	font-weight: 600;
 	font-family: 'MontserratSemi';
 	margin-right: 50px;
 }
-
+.desc span{
+    color: #FFC919;
+}
 .phone {
 	color: #ffffff !important;
-	font-family: 'MontserratBold';
-	font-size: 18px;
+	font-family: 'UbuntuBold';
+	font-size: 21px;
 	font-weight: 700;
 }
 
@@ -101,12 +126,13 @@ header {
 }
 
 header .btn {
-	width: 157px;
-	height: 37px;
+	width: 230px;
+	height: 36px;
 	border-radius: 30px;
-	background-color: #e63f19;
+	background:url('../img/wild_but.png') no-repeat;
+    background-position: center;
 	color: #ffffff;
-	font-family: 'MontserratBold';
+	font-family: 'UbuntuBold';
 	font-size: 14px;
 	font-weight: 700;
 	margin-left: 24px;
@@ -203,4 +229,295 @@ header .btn {
     top: 242px;
     left: 0px;
     z-index: 9;
+}
+.video-reviews h2 {
+    color: #000;
+    padding-top: 100px;
+    margin-bottom: 95px;
+}
+.fancy_v {
+    padding: 0 155px;
+    margin-bottom: 85px;
+}
+.videos h2 {
+    padding-top: 100px;
+    margin-bottom: 370px;
+}
+.section-1 p {
+    margin: 0;
+}
+.section-1 {
+    background-color:#000 ;
+    color: #fff;
+    padding-bottom: 110px;
+}
+h1 {
+    padding-top: 26px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    background: url(../img/h1_back.png) no-repeat;
+    background-position: 50% 20%;
+    background-size: 515px;
+    height: 175px;
+    z-index: 2;
+    position: relative;
+}
+.single,
+.krug,
+.ellipse,
+.merch {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+}
+.single img {
+	margin: 0 auto;
+}
+.fivestar {
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    top: -35px;
+}
+.section-1 p {
+    font-weight: 700;
+    font-size: 18px;
+}
+.text_r {
+    text-align: right;
+}
+.bubble {
+    padding-top: 47px;
+    text-align: center;
+    background: url(../img/bubble.png) no-repeat;
+    background-position: center;
+    width: 347px;
+    height: 199px;
+    top: -130px;
+    left: 180px;
+}
+.section-1 .single {
+    top: 40px;
+    z-index: 3;
+}
+.single .prev {
+	position: absolute;
+    left: 0px;
+	top: 240px;
+	z-index: 9;
+    margin-left: 405px;
+}
+.single .next {
+	position: absolute;
+    right: 0px;
+	top: 240px;
+	z-index: 9;
+    margin-right: 405px;
+}
+.bubble h2 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #AFB7FF;
+}
+.bubble h2 span {
+    color: #fff;
+    
+}
+.bubble p {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.3;
+    margin-top: -2px;
+    color:#BDBDBD;
+}
+.core_div {
+    top: -77px;
+}
+.div1 {
+    padding: 0 120px;
+     
+}
+.div1,
+.div2,
+.div3,
+.div4 {
+    position: relative; 
+    z-index: 3;
+}
+.krug {
+    top: 68px;
+}
+.ellipse {
+    top: -81px;
+}
+.gerb {
+    position: relative;
+    right: 65px;
+    top: 50px;
+}
+.div2 {
+    padding: 0 122px;
+    margin-top: 22px;
+}
+.vnutr1 {
+    margin-right: 38px;
+    margin-top: -17px;
+}
+.div3 {
+    padding: 0px 148px;
+    margin-top: 56px;
+}
+.vnutr2 {
+    margin-right: 8px;
+    margin-top: -44px;
+}
+.div4 {
+    margin-top: 37px;
+    padding: 0px 180px;
+}
+.buttons .btn {
+    display: block;
+    width: 320px;
+    height: 50px;
+    border-radius: 30px;
+    background-image: url(../img/wild_but.png);
+    background-size: 365px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: -10px;
+    border: none;
+    margin-right: 13px;
+    margin-left: 16px;
+    position: relative;
+}
+.about_goods {
+    background-color: #1A1A18;
+    color: #FFFFFF;
+    height: 942px;
+}
+.volna img {
+    width: 100%
+}
+.about_goods .volna {
+    top: -69px;
+}
+h2 {
+    text-align: center;
+    font-size: 41px;
+    font-weight: 700;
+    
+}
+.about_goods h2 {
+    margin-bottom: 50px;
+}
+.about_goods .container {
+    position: relative;
+    top: -200px;
+}
+.about_goods .h_back {
+    left: 434px;
+    bottom: 214px;
+    width: 100px;
+}
+.merch {
+    bottom: 245px;
+}
+.about_goods p {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 16px;
+}
+.core_div2 {
+    bottom: 154px;
+    padding: 0 175px;
+}
+.goods1 p {
+    margin-left: -55px;
+}
+
+.goods2 {
+    margin-left: 65px;
+}
+.block2 {
+    margin-top: -10px;
+    margin-right: -70px;
+}
+.goods4 {
+    margin-top: 48px;
+    margin-left: -67px;
+}
+.goods3 p {
+    position: relative;
+    left: -27px;
+}
+.goods4 p{
+    position: relative;
+    left: -56px;
+}
+.about_goods .buttons {
+    bottom: 129px;
+}
+.how_it_work {
+    background-color: #000;
+    color: #fff;
+    height: 850px;
+}
+.how_it_work .volna {
+    top: -86px;
+}
+.how_it_work .container {
+    position: relative;
+    bottom: 117px;
+}
+.how_it_work .h_back {
+    left: 434px;
+    bottom: 221px;
+    width: 100px;
+}
+.how_it_work p {
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+}
+.how_it_work p span {
+    color:#F5D366;
+}
+.core_div3 {
+    margin-right: 46px;
+    position: relative;
+    bottom: 225px;
+}
+.buttons .vio {
+    background-color: #000;
+    background-image: none;
+    border: 2px solid #DF86ED;
+    color: #DF86ED;
+}
+.how_it_work .buttons {
+    bottom: 160px;
+    position: relative;
+}
+.preims {
+    background-color: #fff;
+    color: #222;
+}
+.preims p {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.preims p span {
+    background-color: #FFE89E;
+}
+.preims .volna {
+    top: -86px;
 }
